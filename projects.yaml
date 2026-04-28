@@ -1,0 +1,177 @@
+# Project registry for dusktreader's toolkit
+#
+# This file is the single source of truth for which projects appear on the site
+# and how they are categorized. The toolkit refresh command reads this file,
+# fetches version/release data from PyPI and GitHub, and injects tables into
+# the markdown files.
+#
+# Fields:
+#   repo:             GitHub repo name (under dusktreader/)
+#   language:         Implementation language (python, go, ...)
+#   package_name:     Package name on the registry (omit if not published)
+#   package_registry: Package registry hostname, e.g. pypi.org (omit if not published)
+#   description:      One-line description for tables
+#   docs_url:         Documentation site URL (omit if none)
+
+libraries:
+  - repo: flask-praetorian
+    language: python
+    package_name: flask-praetorian
+    package_registry: pypi.org
+    description: Strong, simple, and precise security for Flask APIs
+    docs_url: https://flask-praetorian.readthedocs.io/
+
+  - repo: py-buzz
+    language: python
+    package_name: py-buzz
+    package_registry: pypi.org
+    description: Python exceptions with extras
+    docs_url: https://dusktreader.github.io/py-buzz/
+
+  - repo: cut-out-cookies
+    language: python
+    package_name: cut-out-cookies
+    package_registry: pypi.org
+    description: Jinja2 extension for conditional cookiecutter sections
+
+  - repo: snick
+    language: python
+    package_name: snick
+    package_registry: pypi.org
+    description: Text manipulation gadgets for indentation
+    docs_url: https://dusktreader.github.io/snick/
+
+  - repo: flask-buzz
+    language: python
+    package_name: flask-buzz
+    package_registry: pypi.org
+    description: py-buzz bindings for Flask applications
+    docs_url: https://dusktreader.github.io/flask-buzz/
+
+  - repo: fastapi-buzz
+    language: python
+    package_name: fastapi-buzz
+    package_registry: pypi.org
+    description: py-buzz bindings for FastAPI applications
+    docs_url: https://dusktreader.github.io/fastapi-buzz/
+
+  - repo: auto-name-enum
+    language: python
+    package_name: auto-name-enum
+    package_registry: pypi.org
+    description: String-based Enum with automatic value assignment
+
+  - repo: typer-repyt
+    language: python
+    package_name: typer-repyt
+    package_registry: pypi.org
+    description: Extended functionality for Typer-based CLIs
+    docs_url: https://dusktreader.github.io/typer-repyt/
+
+  - repo: plummet
+    language: python
+    package_name: plummet
+    package_registry: pypi.org
+    description: Testing helpers for pendulum timestamps
+
+  - repo: focalize
+    language: python
+    package_name: focalize
+    package_registry: pypi.org
+    description: Context manager for log contextualization
+    docs_url: https://dusktreader.github.io/focalize/
+
+  - repo: praetorian-core
+    language: python
+    description: Core API auth for framework-specific implementations
+    docs_url: https://dusktreader.github.io/praetorian-core/
+
+  - repo: wizdantic
+    language: python
+    description: Collect Pydantic model values via a wizard
+    docs_url: https://dusktreader.github.io/wizdantic/
+
+  - repo: typerdrive
+    language: python
+    package_name: typerdrive
+    package_registry: pypi.org
+    description: A framework for building batteries-included Typer CLIs
+    docs_url: https://dusktreader.github.io/typerdrive/
+
+cli-tools:
+  - repo: tag-sync
+    language: python
+    package_name: tag-sync
+    package_registry: pypi.org
+    description: Sync git tags with project versions
+    docs_url: https://dusktreader.github.io/tag-sync/
+
+  - repo: smart-letters
+    language: python
+    package_name: smart-letters
+    package_registry: pypi.org
+    description: AI-powered cover letter generation
+
+  - repo: gfys
+    language: python
+    package_name: gfys
+    package_registry: pypi.org
+    description: Better go test output formatting
+
+  - repo: ksec
+    language: python
+    package_name: ksec
+    package_registry: pypi.org
+    description: Show Kubernetes secrets from kubectl
+
+  - repo: sphinx-view
+    language: python
+    package_name: sphinx-view
+    package_registry: pypi.org
+    description: View rendered Sphinx/RST documents in a browser
+    docs_url: https://sphinx-view.readthedocs.io/
+
+  - repo: ambix
+    language: python
+    package_name: ambix
+    package_registry: pypi.org
+    description: Toolkit for reordering Alembic migration scripts
+
+  - repo: drivel
+    language: python
+    package_name: py-drivel
+    package_registry: pypi.org
+    description: Generate fun metasyntactic names
+
+  - repo: gowatch
+    language: go
+    description: A command-line stopwatch
+
+mkdocs-plugins:
+  - repo: mkdocs-editor-notes
+    language: python
+    package_name: mkdocs-editor-notes
+    package_registry: pypi.org
+    description: Gather editor's notes from annotated documents
+    docs_url: https://dusktreader.github.io/mkdocs-editor-notes/
+
+  - repo: superfences-ps1
+    language: python
+    package_name: superfences-ps1
+    package_registry: pypi.org
+    description: Copy-safe shell-prompt SuperFences fence
+
+templates:
+  - repo: xerox-python
+    language: python
+    description: A copier template for Python packages
+
+applications:
+  - repo: dot
+    language: python
+    description: Personal dotfiles management system
+
+  - repo: site-nine
+    language: python
+    description: The headquarters for AI agent orchestration
+    docs_url: https://dusktreader.github.io/site-nine/

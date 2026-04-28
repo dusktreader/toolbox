@@ -1,0 +1,96 @@
+[project]
+site_name = "dusktreader's toolbox"
+site_description = "A curated collection of open-source tools, libraries, and CLI utilities built by dusktreader"
+site_author = "Tucker Beck"
+copyright = "Copyright &copy; 2026 Tucker Beck"
+extra_javascript = ["js/external-links.js"]
+extra_css = ["css/extra.css"]
+
+nav = [
+    { "Home" = "index.md" },
+    { "Libraries" = [
+        "libraries/index.md",
+        "libraries/flask-praetorian.md",
+        "libraries/py-buzz.md",
+        "libraries/fastapi-buzz.md",
+        "libraries/flask-buzz.md",
+        "libraries/praetorian-core.md",
+        "libraries/snick.md",
+        "libraries/auto-name-enum.md",
+        "libraries/plummet.md",
+        "libraries/focalize.md",
+        "libraries/wizdantic.md",
+        "libraries/typerdrive.md",
+        "libraries/cut-out-cookies.md",
+        "libraries/typer-repyt.md",
+    ]},
+    { "CLI Tools" = [
+        "cli-tools/index.md",
+        "cli-tools/ambix.md",
+        "cli-tools/tag-sync.md",
+        "cli-tools/sphinx-view.md",
+        "cli-tools/ksec.md",
+        "cli-tools/drivel.md",
+        "cli-tools/gfys.md",
+        "cli-tools/smart-letters.md",
+        "cli-tools/gowatch.md",
+    ]},
+    { "MkDocs Plugins" = [
+        "mkdocs-plugins/index.md",
+        "mkdocs-plugins/mkdocs-editor-notes.md",
+        "mkdocs-plugins/superfences-ps1.md",
+    ]},
+    { "Templates" = [
+        "templates/index.md",
+        "templates/xerox-python.md",
+    ]},
+    { "Applications" = [
+        "applications/index.md",
+        "applications/dot.md",
+        "applications/site-nine.md",
+    ]},
+]
+
+[project.theme]
+logo = "images/toolbox-icon.png"
+favicon = "images/toolbox-icon.png"
+language = "en"
+features = [
+    "content.code.copy",
+    "content.code.annotate",
+    "content.tooltips",
+    "navigation.footer",
+    "navigation.indexes",
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "navigation.path",
+    "navigation.sections",
+    "navigation.tabs",
+    "navigation.tabs.sticky",
+    "navigation.top",
+    "navigation.tracking",
+    "search.highlight",
+    "toc.follow",
+]
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to dark mode"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/dusktreader"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/bluesky"
+link = "https://bsky.app/profile/the.dusktreader.dev"

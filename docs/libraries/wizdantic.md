@@ -1,0 +1,64 @@
+# wizdantic
+
+Collect Pydantic model values via a wizard
+
+[:fontawesome-brands-github:](https://github.com/dusktreader/wizdantic "GitHub")
+[:material-book-open-variant:](https://dusktreader.github.io/wizdantic/ "Docs")
+·
+[:material-tag-multiple:](# "Releases") 4
+
+**Created**: 2026-04-07 · **Version**: v0.2.0
+
+---
+
+![wizdantic](https://raw.githubusercontent.com/dusktreader/wizdantic/main/docs/source/images/wizdantic-logo.png)
+
+Conjure populated Pydantic models from thin air with an interactive terminal wizard.
+
+
+## Super-quick start
+
+Requires Python 3.12+.
+
+```bash
+pip install wizdantic
+```
+
+
+## Usage
+
+Define a Pydantic model. Call `run_wizard`. That's it.
+
+```python
+from pydantic import BaseModel, Field
+from wizdantic import run_wizard
+
+class Spellbook(BaseModel):
+    name: str = Field(description="Spellbook title")
+    page_count: int = Field(description="Number of pages", default=300)
+    ink_weight_kg: float = Field(description="Weight of enchanted ink in kilograms", default=0.4)
+    cursed: bool = Field(description="Bound with a curse", default=False)
+
+book = run_wizard(Spellbook, title="Register a Spellbook")
+```
+
+The wizard walks the user through each field, validates input inline, insists on required values, pre-fills defaults,
+and returns a fully constructed model instance.
+
+
+## Try the demo
+
+The fastest way to see wizdantic in action is to run the interactive demo. No
+install required:
+
+```bash
+uvx --from=wizdantic[demo] wizdantic-demo
+```
+
+The demo walks through every supported field type, one spell at a time. Each spell shows the model definition and a
+plain-English description, then drops you into a live wizard.
+
+
+## Documentation
+
+Full documentation at [dusktreader.github.io/wizdantic](https://dusktreader.github.io/wizdantic/).

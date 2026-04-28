@@ -1,0 +1,37 @@
+[project]
+name = "toolbox"
+version = "0.1.0"
+description = "Static site showcasing dusktreader's open-source projects"
+readme = "README.md"
+license = "CC-BY-SA-4.0"
+license-files = ["LICENSE.md"]
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "pyyaml>=6.0.3",
+    "snick>=3.1.0",
+    "typer>=0.15",
+]
+
+[project.scripts]
+toolbox = "toolbox.cli:main"
+
+[build-system]
+requires = ["uv-build>=0.1.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = true
+
+[dependency-groups]
+dev = [
+    "zensical>=0.0.32",
+    "ruff>=0.11",
+]
+
+[tool.ruff]
+line-length = 120
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
