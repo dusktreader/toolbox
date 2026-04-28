@@ -1,5 +1,6 @@
 [project]
 site_name = "dusktreader's toolbox"
+site_url = "https://tools.dusktreader.dev"
 site_description = "A curated collection of open-source tools, libraries, and CLI utilities built by dusktreader"
 site_author = "Tucker Beck"
 copyright = "Copyright &copy; 2026 Tucker Beck"

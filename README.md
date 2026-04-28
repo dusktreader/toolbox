@@ -5,7 +5,7 @@
 A static site that catalogs all of Tucker Beck's open-source projects, organized by language and type. The site is
 built with [Zensical](https://zensical.dev) and hosted on GitHub Pages.
 
-View the site here: [toolbox.dusktreader.dev](https://toolbox.dusktreader.dev)
+View the site here: [tools.dusktreader.dev](https://tools.dusktreader.dev)
 
 
 ## What's here
