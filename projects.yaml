@@ -99,6 +99,13 @@ libraries:
     docs_url: https://dusktreader.github.io/typerdrive/
 
 cli-tools:
+  - repo: chill-out
+    language: python
+    package_name: chill-out
+    package_registry: pypi.org
+    description: Have your dependencies chill out a bit while you make sure they are safe.
+    docs_url: https://dusktreader.github.io/chill-out/
+
   - repo: tag-sync
     language: python
     package_name: tag-sync

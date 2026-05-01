@@ -5,16 +5,15 @@ AI-powered cover letter generation
 [:fontawesome-brands-github:](https://github.com/dusktreader/smart-letters "GitHub")
 [:fontawesome-brands-python:](https://pypi.org/project/smart-letters/ "PyPI")
 ·
-[:material-tag-multiple:](# "Releases") 5 [:material-star:](# "Stars") 4
+[:material-tag-multiple:](# "Releases") 6 [:material-star:](# "Stars") 4
 
-**Created**: 2025-03-01 · **Last Released**: 2025-04-14 · **Version**: 0.3.0
+**Created**: 2025-03-01 · **Last Released**: 2026-04-29 · **Version**: 0.3.1
 
 ---
 
 > [!IMPORTANT]
-> I'm looking for a job right now! If you know of any openings that match my skill-set,
-> please let me know! You can read my resume over at my
-> [cv](https://github.com/dusktreader/cv) project. Thanks!!
+> This app helped me find a job! If you would like to chat about my approach and how you can use smart-letters to land
+> your next gig, please reach out!
 
 
 [//]: # (Add an asciicast)
