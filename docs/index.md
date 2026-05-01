@@ -92,9 +92,9 @@ Browse by category below, or jump straight to the highlights.
 [:fontawesome-brands-github:](https://github.com/dusktreader/smart-letters "GitHub")
 [:fontawesome-brands-python:](https://pypi.org/project/smart-letters/ "PyPI")
 ·
-[:material-tag-multiple:](# "Releases") 5 [:material-star:](# "Stars") 4
+[:material-tag-multiple:](# "Releases") 6 [:material-star:](# "Stars") 4
 
-**Created**: 2025-03-01 · **Last Released**: 2025-04-14 · **Version**: 0.3.0
+**Created**: 2025-03-01 · **Last Released**: 2026-04-29 · **Version**: 0.3.1
 <!-- /project-table -->
 
 ----

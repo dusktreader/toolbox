@@ -2,6 +2,20 @@
 
 Command-line tools you install and run directly.
 
+## :fontawesome-brands-python: [chill-out](chill-out.md)
+
+*Have your dependencies chill out a bit while you make sure they are safe.*
+
+[:fontawesome-brands-github:](https://github.com/dusktreader/chill-out "GitHub")
+[:fontawesome-brands-python:](https://pypi.org/project/chill-out/ "PyPI")
+[:material-book-open-variant:](https://dusktreader.github.io/chill-out/ "Docs")
+·
+[:material-tag-multiple:](# "Releases") 1
+
+**Created**: 2026-05-01 · **Last Released**: 2026-05-01 · **Version**: 0.1.0
+
+---
+
 ## :fontawesome-brands-python: [tag-sync](tag-sync.md)
 
 *Sync git tags with project versions*
@@ -23,9 +37,9 @@ Command-line tools you install and run directly.
 [:fontawesome-brands-github:](https://github.com/dusktreader/smart-letters "GitHub")
 [:fontawesome-brands-python:](https://pypi.org/project/smart-letters/ "PyPI")
 ·
-[:material-tag-multiple:](# "Releases") 5 [:material-star:](# "Stars") 4
+[:material-tag-multiple:](# "Releases") 6 [:material-star:](# "Stars") 4
 
-**Created**: 2025-03-01 · **Last Released**: 2025-04-14 · **Version**: 0.3.0
+**Created**: 2025-03-01 · **Last Released**: 2026-04-29 · **Version**: 0.3.1
 
 ---
 
