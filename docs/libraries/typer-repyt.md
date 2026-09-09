@@ -6,9 +6,9 @@ Extended functionality for Typer-based CLIs
 [:fontawesome-brands-python:](https://pypi.org/project/typer-repyt/ "PyPI")
 [:material-book-open-variant:](https://dusktreader.github.io/typer-repyt/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 13
+[:material-tag-multiple:](# "Releases") 14
 
-**Created**: 2025-04-16 · **Last Released**: 2026-03-12 · **Version**: 0.9.1
+**Created**: 2025-04-16 · **Last Released**: 2026-05-08 · **Version**: 0.9.2
 
 ---
 

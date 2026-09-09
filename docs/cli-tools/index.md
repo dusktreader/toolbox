@@ -24,9 +24,9 @@ Command-line tools you install and run directly.
 [:fontawesome-brands-python:](https://pypi.org/project/tag-sync/ "PyPI")
 [:material-book-open-variant:](https://dusktreader.github.io/tag-sync/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 2
+[:material-tag-multiple:](# "Releases") 3
 
-**Created**: 2026-04-03 · **Last Released**: 2026-04-10 · **Version**: 0.1.1
+**Created**: 2026-04-03 · **Last Released**: 2026-05-02 · **Version**: 0.2.0
 
 ---
 

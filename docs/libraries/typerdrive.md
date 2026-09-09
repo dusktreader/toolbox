@@ -6,9 +6,9 @@ A framework for building batteries-included Typer CLIs
 [:fontawesome-brands-python:](https://pypi.org/project/typerdrive/ "PyPI")
 [:material-book-open-variant:](https://dusktreader.github.io/typerdrive/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 19 [:material-star:](# "Stars") 11
+[:material-tag-multiple:](# "Releases") 25 [:material-star:](# "Stars") 11
 
-**Created**: 2025-05-02 · **Last Released**: 2026-03-19 · **Version**: 0.9.2
+**Created**: 2025-05-02 · **Last Released**: 2026-05-08 · **Version**: 0.9.9
 
 ---
 
