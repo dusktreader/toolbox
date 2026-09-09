@@ -98,6 +98,13 @@ libraries:
     description: A framework for building batteries-included Typer CLIs
     docs_url: https://dusktreader.github.io/typerdrive/
 
+  - repo: betwixt
+    language: python
+    package_name: betwixt-data
+    package_registry: pypi.org
+    description: Betwixt your data models lives a new, declarative mapping layer.
+    docs_url: https://dusktreader.github.io/betwixt/
+
 cli-tools:
   - repo: chill-out
     language: python

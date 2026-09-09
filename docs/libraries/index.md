@@ -10,7 +10,7 @@ Packages you install and import into your own projects.
 [:fontawesome-brands-python:](https://pypi.org/project/flask-praetorian/ "PyPI")
 [:material-book-open-variant:](https://flask-praetorian.readthedocs.io/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 51 [:material-star:](# "Stars") 350 [:material-source-fork:](# "Forks") 47
+[:material-tag-multiple:](# "Releases") 51 [:material-star:](# "Stars") 350 [:material-source-fork:](# "Forks") 46
 
 **Created**: 2016-11-23 · **Last Released**: 2025-08-19 · **Version**: 1.6.2
 
@@ -92,9 +92,9 @@ Packages you install and import into your own projects.
 [:fontawesome-brands-github:](https://github.com/dusktreader/auto-name-enum "GitHub")
 [:fontawesome-brands-python:](https://pypi.org/project/auto-name-enum/ "PyPI")
 ·
-[:material-tag-multiple:](# "Releases") 9 [:material-star:](# "Stars") 1 [:material-source-fork:](# "Forks") 1
+[:material-tag-multiple:](# "Releases") 10 [:material-star:](# "Stars") 1 [:material-source-fork:](# "Forks") 1
 
-**Created**: 2020-12-02 · **Last Released**: 2026-03-10 · **Version**: 4.1.0
+**Created**: 2020-12-02 · **Last Released**: 2026-07-31 · **Version**: 4.2.0
 
 ---
 
@@ -106,9 +106,9 @@ Packages you install and import into your own projects.
 [:fontawesome-brands-python:](https://pypi.org/project/typer-repyt/ "PyPI")
 [:material-book-open-variant:](https://dusktreader.github.io/typer-repyt/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 13
+[:material-tag-multiple:](# "Releases") 14
 
-**Created**: 2025-04-16 · **Last Released**: 2026-03-12 · **Version**: 0.9.1
+**Created**: 2025-04-16 · **Last Released**: 2026-05-08 · **Version**: 0.9.2
 
 ---
 
@@ -157,9 +157,9 @@ Packages you install and import into your own projects.
 [:fontawesome-brands-github:](https://github.com/dusktreader/wizdantic "GitHub")
 [:material-book-open-variant:](https://dusktreader.github.io/wizdantic/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 4
+[:material-tag-multiple:](# "Releases") 5 [:material-star:](# "Stars") 1
 
-**Created**: 2026-04-07 · **Version**: v0.2.0
+**Created**: 2026-04-07 · **Version**: v0.3.0
 
 ---
 
@@ -171,6 +171,20 @@ Packages you install and import into your own projects.
 [:fontawesome-brands-python:](https://pypi.org/project/typerdrive/ "PyPI")
 [:material-book-open-variant:](https://dusktreader.github.io/typerdrive/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 19 [:material-star:](# "Stars") 11
+[:material-tag-multiple:](# "Releases") 25 [:material-star:](# "Stars") 11
 
-**Created**: 2025-05-02 · **Last Released**: 2026-03-19 · **Version**: 0.9.2
+**Created**: 2025-05-02 · **Last Released**: 2026-05-08 · **Version**: 0.9.9
+
+---
+
+## :fontawesome-brands-python: [betwixt](betwixt.md)
+
+*Betwixt your data models lives a new, declarative mapping layer.*
+
+[:fontawesome-brands-github:](https://github.com/dusktreader/betwixt "GitHub")
+[:fontawesome-brands-python:](https://pypi.org/project/betwixt-data/ "PyPI")
+[:material-book-open-variant:](https://dusktreader.github.io/betwixt/ "Docs")
+·
+[:material-tag-multiple:](# "Releases") 1
+
+**Created**: 2026-08-12 · **Last Released**: 2026-09-04 · **Version**: 0.2.0

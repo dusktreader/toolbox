@@ -21,12 +21,13 @@ use directly. You are welcome to review the code, patterns, and configuration ap
 educational purposes. However, I won't make any promises about this working for anyone else. **Running the
 install script can and will modify your existing configuration files!**
 
+
 ## Quick Install
 
 Install with:
 
-```bash
-curl https://raw.githubusercontent.com/dusktreader/dot/refs/heads/main/install.sh | bash
+```shell
+curl -L install.dusktreader.dev | bash
 ```
 
 
@@ -34,6 +35,6 @@ curl https://raw.githubusercontent.com/dusktreader/dot/refs/heads/main/install.s
 
 Nuke the installation with:
 
-```bash
-curl https://raw.githubusercontent.com/dusktreader/dot/refs/heads/main/uninstall.sh | bash
+```shell
+curl -L uninstall.dusktreader.dev | bash
 ```

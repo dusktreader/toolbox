@@ -5,9 +5,9 @@ String-based Enum with automatic value assignment
 [:fontawesome-brands-github:](https://github.com/dusktreader/auto-name-enum "GitHub")
 [:fontawesome-brands-python:](https://pypi.org/project/auto-name-enum/ "PyPI")
 ·
-[:material-tag-multiple:](# "Releases") 9 [:material-star:](# "Stars") 1 [:material-source-fork:](# "Forks") 1
+[:material-tag-multiple:](# "Releases") 10 [:material-star:](# "Stars") 1 [:material-source-fork:](# "Forks") 1
 
-**Created**: 2020-12-02 · **Last Released**: 2026-03-10 · **Version**: 4.1.0
+**Created**: 2020-12-02 · **Last Released**: 2026-07-31 · **Version**: 4.2.0
 
 ---
 
@@ -62,6 +62,7 @@ There are two mixins provided that change the case of member values for both `au
 
 - `LowerCaseMixin`: values are in all lower-case
 - `TitleCaseMixin`: values are in title-case (lower-case except for first letter)
+- `KebabCaseMixin`: values are in kebab-case (dashes instead of underscores)
 
 When these mixins are used, they _must_ be included after `AutoNameEnum` in the class inheritance declaration:
 

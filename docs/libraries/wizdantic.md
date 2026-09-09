@@ -5,9 +5,9 @@ Collect Pydantic model values via a wizard
 [:fontawesome-brands-github:](https://github.com/dusktreader/wizdantic "GitHub")
 [:material-book-open-variant:](https://dusktreader.github.io/wizdantic/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 4
+[:material-tag-multiple:](# "Releases") 5 [:material-star:](# "Stars") 1
 
-**Created**: 2026-04-07 · **Version**: v0.2.0
+**Created**: 2026-04-07 · **Version**: v0.3.0
 
 ---
 

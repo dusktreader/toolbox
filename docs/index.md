@@ -37,7 +37,7 @@ Browse by category below, or jump straight to the highlights.
 [:fontawesome-brands-python:](https://pypi.org/project/flask-praetorian/ "PyPI")
 [:material-book-open-variant:](https://flask-praetorian.readthedocs.io/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 51 [:material-star:](# "Stars") 350 [:material-source-fork:](# "Forks") 47
+[:material-tag-multiple:](# "Releases") 51 [:material-star:](# "Stars") 350 [:material-source-fork:](# "Forks") 46
 
 **Created**: 2016-11-23 · **Last Released**: 2025-08-19 · **Version**: 1.6.2
 
@@ -65,9 +65,9 @@ Browse by category below, or jump straight to the highlights.
 [:fontawesome-brands-python:](https://pypi.org/project/typerdrive/ "PyPI")
 [:material-book-open-variant:](https://dusktreader.github.io/typerdrive/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 19 [:material-star:](# "Stars") 11
+[:material-tag-multiple:](# "Releases") 25 [:material-star:](# "Stars") 11
 
-**Created**: 2025-05-02 · **Last Released**: 2026-03-19 · **Version**: 0.9.2
+**Created**: 2025-05-02 · **Last Released**: 2026-05-08 · **Version**: 0.9.9
 
 ---
 
