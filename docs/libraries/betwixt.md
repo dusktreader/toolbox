@@ -12,7 +12,7 @@ Betwixt your data models lives a new, declarative mapping layer.
 
 ---
 
-![Betwixt logo](https://raw.githubusercontent.com/dusktreader/betwixt/main/docs/source/static/logo.png)
+![Betwixt logo](docs/source/static/logo.png)
 
 _Betwixt your data models lives a new, declarative mapping layer._
 

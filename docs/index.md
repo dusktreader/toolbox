@@ -37,7 +37,7 @@ Browse by category below, or jump straight to the highlights.
 [:fontawesome-brands-python:](https://pypi.org/project/flask-praetorian/ "PyPI")
 [:material-book-open-variant:](https://flask-praetorian.readthedocs.io/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 51 [:material-star:](# "Stars") 350 [:material-source-fork:](# "Forks") 46
+[:material-tag-multiple:](# "Releases") 51 [:material-star:](# "Stars") 348 [:material-source-fork:](# "Forks") 46
 
 **Created**: 2016-11-23 · **Last Released**: 2025-08-19 · **Version**: 1.6.2
 
@@ -51,9 +51,9 @@ Browse by category below, or jump straight to the highlights.
 [:fontawesome-brands-python:](https://pypi.org/project/py-buzz/ "PyPI")
 [:material-book-open-variant:](https://dusktreader.github.io/py-buzz/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 49 [:material-star:](# "Stars") 18 [:material-source-fork:](# "Forks") 4
+[:material-tag-multiple:](# "Releases") 53 [:material-star:](# "Stars") 18 [:material-source-fork:](# "Forks") 4
 
-**Created**: 2016-12-20 · **Last Released**: 2026-04-11 · **Version**: 8.1.2
+**Created**: 2016-12-20 · **Last Released**: 2026-10-22 · **Version**: 9.0.1
 
 ---
 
@@ -65,9 +65,9 @@ Browse by category below, or jump straight to the highlights.
 [:fontawesome-brands-python:](https://pypi.org/project/typerdrive/ "PyPI")
 [:material-book-open-variant:](https://dusktreader.github.io/typerdrive/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 25 [:material-star:](# "Stars") 11
+[:material-tag-multiple:](# "Releases") 33 [:material-star:](# "Stars") 11
 
-**Created**: 2025-05-02 · **Last Released**: 2026-05-08 · **Version**: 0.9.9
+**Created**: 2025-05-02 · **Last Released**: 2026-11-06 · **Version**: 0.15.0
 
 ---
 

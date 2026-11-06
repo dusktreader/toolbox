@@ -6,11 +6,21 @@ A framework for building batteries-included Typer CLIs
 [:fontawesome-brands-python:](https://pypi.org/project/typerdrive/ "PyPI")
 [:material-book-open-variant:](https://dusktreader.github.io/typerdrive/ "Docs")
 ·
-[:material-tag-multiple:](# "Releases") 25 [:material-star:](# "Stars") 11
+[:material-tag-multiple:](# "Releases") 33 [:material-star:](# "Stars") 11
 
-**Created**: 2025-05-02 · **Last Released**: 2026-05-08 · **Version**: 0.9.9
+**Created**: 2025-05-02 · **Last Released**: 2026-11-06 · **Version**: 0.15.0
 
 ---
+
+[![Latest
+Version](https://img.shields.io/pypi/v/typerdrive?label=pypi-version&logo=python&style=plastic)](https://pypi.org/project/typerdrive/)
+[![Python
+Versions](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fdusktreader%2Ftyperdrive%2Fmain%2Fpyproject.toml&style=plastic&logo=python&label=python-versions)](https://www.python.org/)
+[![Build
+Status](https://github.com/dusktreader/typerdrive/actions/workflows/main.yml/badge.svg)](https://github.com/dusktreader/typerdrive/actions/workflows/main.yml)
+[![Documentation
+Status](https://github.com/dusktreader/typerdrive/actions/workflows/docs.yml/badge.svg)](https://dusktreader.github.io/typerdrive/)
+
 
 ![typerdrive-logo](https://raw.githubusercontent.com/dusktreader/typerdrive/main/docs/source/images/logo-dark.png)
 
@@ -21,6 +31,7 @@ _Boost your command-line workflows to lightspeed_
 
 - [Settings management & commands](https://dusktreader.github.io/typerdrive/features/settings)
 - [Cache management & commands](https://dusktreader.github.io/typerdrive/features/cache)
+- [SQLite database & commands](https://dusktreader.github.io/typerdrive/features/database)
 - [Logging management & commands](https://dusktreader.github.io/typerdrive/features/logging.md)
 - [User-friendly error handling](https://dusktreader.github.io/typerdrive/features/exceptions)
 - [Powered Up API clients](https://dusktreader.github.io/typerdrive/features/client)
@@ -28,11 +39,11 @@ _Boost your command-line workflows to lightspeed_
 
 ## Super-quick Start
 
-Requires: Python 3.12 to 3.14
+Requires: Python 3.12 to 3.15
 
 Install through pip:
 
-```bash
+```shell
 pip install typerdrive
 ```
 
@@ -47,6 +58,6 @@ The complete documentation can be found at the
 
 To see the features in action, you can run the demo in an isolated environment with `uv`:
 
-```
-uvx --from=typerdrive[demo] typerdrive-demo
+```text
+uvx --from='typerdrive[demo]' typerdrive-demo
 ```
